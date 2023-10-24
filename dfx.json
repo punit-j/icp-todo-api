@@ -4,19 +4,6 @@
       "candid": "src/icp_todo_api_backend/icp_todo_api_backend.did",
       "package": "icp_todo_api_backend",
       "type": "rust"
-    },
-    "icp_todo_api_frontend": {
-      "dependencies": [
-        "icp_todo_api_backend"
-      ],
-      "frontend": {
-        "entrypoint": "src/icp_todo_api_frontend/src/index.html"
-      },
-      "source": [
-        "src/icp_todo_api_frontend/assets",
-        "dist/icp_todo_api_frontend/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
